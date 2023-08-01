@@ -1,9 +1,10 @@
 import './App.css';
+import Accordion from './components/Accordion';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Frontend Interview Reactjs machine round</h1>
+    <div style={{paddingTop: "2.5rem"}}>
+      <Accordion />
     </div>
   );
 }
