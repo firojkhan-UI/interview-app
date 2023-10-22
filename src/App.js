@@ -4,6 +4,8 @@ import Accordion from "./components/Accordion";
 import TodoApp from "./components/TodoApp";
 import AutoComplete from "./components/AutoComplete";
 import CounterApp from "./components/CounterApp";
+import LinearProgressBar from "./components/LinearProgressBar";
+import CircularProgressBar from "./components/CircularProgressBar";
 
 const ComponentRender = React.lazy(() => import("./components/LazyLoading"));
 
@@ -17,7 +19,8 @@ function App() {
       <Accordion />
       <TodoApp /> */}
       {/* <AutoComplete /> */}
-      <CounterApp />
+      {/* <CounterApp style={{background: 'red'}} /> */}
+<CircularProgressBar />     
     </div>
   );
 }

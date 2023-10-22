@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import LinearProgressBar from './LinearProgressBar';
 
 export default function CounterApp() {
     const [count, setCount] = useState(0)
